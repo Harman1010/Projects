@@ -27,7 +27,6 @@ Files included:
 
 app.py (Gradio app)
 requirements.txt
-columns.json
 model.pkl (trained model)
 columns.json (training feature order)
 requirements.txt
