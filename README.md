@@ -1,7 +1,7 @@
 # Projects
 📞 Telco Customer Churn Prediction
 
-A machine learning project that predicts whether a telecom customer will churn and explains why using SHAP values. The model is deployed using a simple Gradio interface.
+A machine learning project that predicts whether a telecom customer will churn and explains why using SHAP values. The model is deployed using Gradio at Hugging Face Spaces and with API using FastAPI.
 
 🚀 Features
 
@@ -14,7 +14,7 @@ SHAP summary plot
 SHAP force plot
 
 🧠 Tech Stack
-Python, Pandas, NumPy, Scikit-learn, XGBoost, SHAP, Gradio, Hugging Face Spaces
+Python, Pandas, NumPy, Scikit-learn, XGBoost, SHAP, Gradio,FastAPI, Hugging Face Spaces
 
 🧪 Model Performance
 After tuning:
@@ -35,6 +35,8 @@ Files included:
 app.py (Gradio app)
 
 requirements.txt
+
+main.py (FastAPI)
 
 model.pkl (trained model)
 
